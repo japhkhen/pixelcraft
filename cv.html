@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV — PixelCraft, Graphic Designer</title>
+  <meta name="description" content="CV for PixelCraft, a graphic designer in Kumasi, Ghana.">
+  <meta name="theme-color" content="#fff4f8">
+  <link rel="icon" href="assets/logo.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css?v=6">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+  <a class="skip" href="#sheet">Skip to CV</a>
+  <div class="nav-wrap no-print" id="navWrap">
+    <header class="nav">
+      <a class="brand" href="index.html"><span class="brand-mark"><img src="assets/logo.jpg" alt=""></span><span class="brand-name">PixelCraft</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu"><span></span><span></span></button>
+      <div class="nav-panel" id="nav-menu">
+        <nav class="nav-menu" aria-label="Primary">
+          <a href="index.html">Home</a>
+          <a href="about.html">About Me</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
+          <a class="is-active" href="cv.html" aria-current="page">CV</a>
+        </nav>
+        <button class="nav-cta" id="savePdf" type="button">Save as PDF</button>
+      </div>
+    </header>
+  </div>
+  <main id="sheet">
+    <div class="cv-top no-print">
+      <p>Graphic designer CV. Choose “Save as PDF” in the print dialog.</p>
+      <button class="btn" id="savePdfTop" type="button">Download CV</button>
+    </div>
+    <article class="cv-sheet">
+      <aside class="cv-side">
+        <a class="brand" href="index.html"><span class="brand-mark"><img src="assets/logo.jpg" alt=""></span><span class="brand-name">PixelCraft</span></a>
+        <img class="cv-photo" src="assets/portrait.jpg" alt="PixelCraft, graphic designer">
+        <h2>Graphic designer</h2>
+        <p>Logos, print, packaging, and social design from Kumasi.</p>
+        <div class="cv-block">
+          <h3>Contact</h3>
+          <a href="tel:+233244031014">+233 244 031 014</a>
+          <a href="tel:+233553140985">+233 553 140 985</a>
+          <p>Kumasi, Ghana<br>Visits by appointment</p>
+        </div>
+        <div class="cv-block">
+          <h3>Focus</h3>
+          <p>Logo &amp; brand<br>Print design<br>Packaging<br>Social &amp; campaigns</p>
+        </div>
+      </aside>
+      <div class="cv-main">
+        <p class="kicker">Graphic designer</p>
+        <h2>Profile</h2>
+        <p>PixelCraft is a graphic designer in Kumasi, Ghana. The work covers logos, print, packaging, and social graphics as one practice, so a business can move from an idea to a finished visual without the look splitting apart.</p>
+        <h2>Selected work</h2>
+        <ul>
+          <li><strong>Adinkra Atelier.</strong> Fashion wordmark, labels, and a printed lookbook.</li>
+          <li><strong>Gold Coast Table.</strong> Restaurant identity, monogram, and menu design.</li>
+          <li><strong>Safoa Wellness.</strong> Calm mark, packaging, and poster set.</li>
+          <li><strong>Sika Nest.</strong> Savings-brand logo and social templates.</li>
+          <li><strong>Harmattan House.</strong> Architecture stationery, brochure, and posters.</li>
+          <li><strong>Kejetia Nights.</strong> Night-market campaign across poster, social, and motion.</li>
+        </ul>
+        <h2>Experience</h2>
+        <ul>
+          <li><strong>Now — Graphic designer, PixelCraft, Kumasi.</strong> Logos, print, packaging, and social design.</li>
+          <li><strong>2025 — Campaign graphics.</strong> Posters, feed templates, and campaign stills.</li>
+          <li><strong>2024 — Identity systems.</strong> Visual identities carried from logo to print.</li>
+          <li><strong>2023 — Practice founded.</strong> PixelCraft established in Kumasi.</li>
+        </ul>
+        <h2>Education</h2>
+        <ul>
+          <li><strong>Ongoing — Graphic design practice.</strong> Typography, illustration, and print, applied to client work.</li>
+        </ul>
+        <h2>Tools</h2>
+        <p>Illustrator, Photoshop, InDesign, Figma, Procreate, After Effects.</p>
+      </div>
+    </article>
+  </main>
+  <script src="js/main.js"></script>
+  <script>document.getElementById("savePdfTop")?.addEventListener("click", () => window.print());</script>
+</body>
+</html>
